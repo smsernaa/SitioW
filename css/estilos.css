@@ -1,0 +1,220 @@
+@font-face {
+	font-family: FRABK;
+			src: url(../fonts/FRABK.ttf);
+			
+		
+}
+
+
+body{
+	font-family: FRABK;
+	margin:0;
+	text-align:center;
+	}
+	
+header{
+margin: 0 auto;
+height: 100px;
+background: #B3B3B3;
+display: flex;
+width: 80%;
+/*justify-content:flex-end;*/
+}
+
+.page-count{
+	text-align:right;
+	width:60%;
+	color:red;
+	padding-right: 5%;
+}
+
+ ul{
+	margin-top:0px;
+	display: flex;
+	list-style: none;
+	
+}
+
+ li{
+	width:200px;
+	
+}
+
+ li:hover {
+	background-color: #005883;
+	
+	
+}
+/*estilos item por defecto del menu*/
+ ul li a{
+	display:block;
+	padding: 10px 10px;
+	color: 	#000000;
+	text-decoration: none;
+	
+}
+
+/*estilos para texto al pasar el mouse por los items del menú*/
+ ul li a:hover{	
+	color: 	#FFFFFF;
+}
+
+ ul ul{
+	top: 60px;
+	display: block;
+	opacity:0;
+	text-align:left;
+	position:absolute;
+	z-index:1;
+	margin: 0 auto;
+	
+		}
+
+ ul li:hover ul {
+	opacity:1;
+	background-color: #005883;
+	top:40px;
+	}
+	
+nav{
+	width:80%;
+	margin:0 auto 0 auto;
+	background: #B3B3B3;
+	height:40px;
+	position:relative;
+	
+}
+
+section{
+margin: 0 auto;
+height: 50px;
+width: 48%;
+display: inline-block;
+
+}
+
+section.noticia{
+	
+	margin-top:40px;
+	background-color:#808080;
+	text-align: justify;
+	height:320px;
+	font-size: 19px;
+	padding:5px 8px 5px 8px;
+	
+}
+
+section.introduccion{
+	
+	margin-top:5px;
+	background-color:#808080;
+	text-align: justify;
+	height:320px;
+	font-size: 19px;
+	padding:5px 8px 5px 8px;
+	
+	
+}
+section.etapas{
+	
+	margin-top:5px;
+	background-color:#808080;
+	text-align: justify;
+	height:520px;
+	font-size: 19px;
+		padding:5px 8px 5px 8px;
+	
+}
+section.ciclo{
+	
+	margin-top:5px;
+	background-color:#808080;
+	text-align: justify;
+	height:420px;
+	font-size: 19px;
+	padding:5px 8px 5px 8px;
+	
+	
+}
+section.modelos{
+	
+	margin-top:5px;
+	background-color:#808080;
+	text-align: justify;
+	height:130px;
+	font-size: 19px;
+	padding:5px 8px 5px 8px;
+	
+}
+
+section.metodologia{
+	
+	margin-top:5px;
+	background-color:#808080;
+	text-align: justify;
+	height:290px;
+	font-size: 19px;
+	padding:5px 8px 5px 8px;
+	
+}
+aside{
+display: inline-block;
+margin:10px auto 0 auto;
+height: 50px;
+width: 30%;
+}
+aside.cascada{
+ display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border:none;
+
+}
+aside.etapas{
+display: inline-block;
+margin-top:-1280px;
+height: 50px;
+width: 30%;	
+		
+}	
+
+table {
+	margin-top:-280px;
+    border-collapse: collapse;
+}
+
+footer {
+    background-color: #000;
+    width: 80%;
+    bottom: 0;
+    position: relative;
+	height:30%;
+	margin: 0 auto;
+
+        }
+		
+div.letras{
+	margin: 0 auto;
+	height:30%;
+	color:#FFFFFF;
+	float:left;
+	text-align:left;
+	padding-left: 8px;
+}
+
+div.logos{
+margin-top:40px;
+height:20%;	
+float:right;
+padding-right:8px;
+}
+
+div.widget{
+	width:800px;
+	background-color:red;
+}
+
+section.reconocimiento{
+	width: 40%;
+	background-color:red;
+}
