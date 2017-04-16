@@ -11,7 +11,11 @@ body{
 	margin:0;
 	text-align:center;
 	}
+
+.contenedor
+{
 	
+}	
 header{
 margin: 0 auto;
 height: 100px;
@@ -143,7 +147,7 @@ section.modelos{
 	text-align: justify;
 	height:130px;
 	font-size: 19px;
-	padding:5px 8px 5px 8px;
+	padding:5px 8px;
 	
 }
 
@@ -215,6 +219,49 @@ div.widget{
 }
 
 section.reconocimiento{
+	width: 39%;
+	margin-top:5px;
+	background-color:#808080;
+	text-align:justify;
+	height:290px;
+	font-size: 19px;
+	padding-left:5px;
+	padding-right:5px;
+
+
+}
+
+section.img{
+	margin-top: 2px;
 	width: 40%;
-	background-color:red;
+	height:auto;
+	
+
+
+}
+aside.widget{
+display:block;
+
+}
+
+section.autor{
+	
+	background-color:#808080;
+	text-align: justify;
+	height:310px;
+	font-size: 19px;
+	padding:5px 8px 5px 8px;
+	
+	
+}
+
+aside.imgmodelos
+{
+border: solid 1px;
+height:130px;
+margin:0 0 0 0;
+
+}
+.prueba{
+	margin-top:10px;
 }
