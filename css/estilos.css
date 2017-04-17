@@ -262,6 +262,17 @@ height:130px;
 margin:0 0 0 0;
 
 }
-.prueba{
-	margin-top:10px;
+
+.imagenesgaleria{
+margin: 0 auto;
+width: 48%;
+padding:5px 9px 5px 9px;
+position:relative;
+
+}
+
+.videoetapas
+{
+margin: 10px auto;
+  height:400px;
 }
