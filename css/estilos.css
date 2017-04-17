@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
 	font-family: FRABK;
 			src: url(../fonts/FRABK.ttf);
 			
@@ -248,7 +248,7 @@ section.autor{
 	
 	background-color:#808080;
 	text-align: justify;
-	height:310px;
+	height:320px;
 	font-size: 19px;
 	padding:5px 8px 5px 8px;
 	
